@@ -9,7 +9,7 @@ const Main = () => {
     useEffect(() => {
         fetch('activity.json')
             .then(res => res.json())
-            .then(data => setActivities(data))
+            .then(data => console.log(data))
     }, []);
 
     addTime = () => {
