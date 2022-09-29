@@ -1,3 +1,11 @@
+.result {
+
+    position: sticky;
+    top: 0;
+    padding: 30px 20px;
+
+}
+
 .header-res {
     display: flex;
     align-items: center;
@@ -45,6 +53,7 @@
     background-color: white;
     padding: 10px;
     font-weight: 700;
+    margin: 2px;
 }
 
 .btn:hover {
@@ -67,4 +76,15 @@
     border-radius: 10px;
 
 
+}
+
+.btn-complete {
+    background-color: skyblue;
+    border: none;
+    width: 85%;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 25px;
 }

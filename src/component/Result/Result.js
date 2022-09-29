@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Result.css';
 
 const Result = (props) => {
+    const [count, setcount] = useState(0)
+    const changeBreak = (t) => {
+        setcount(t)
+    }
 
     return (
         <div className='result'>
@@ -35,21 +39,21 @@ const Result = (props) => {
                 <h3>Add a Break</h3>
                 <div className='break'>
                     <div>
-                        <button className='btn' type="text"> 10s </button>
+                        <button onClick={() => { changeBreak(10) }} className='btn' type="text"> 10s </button>
                     </div>
                     <div>
-                        <button className='btn' type="text">20s</button>
+                        <button onClick={() => { changeBreak(20) }} className='btn' type="text">20s</button>
                     </div>
                     <div>
-                        <button className='btn' type="text">30s</button>
+                        <button onClick={() => { changeBreak(30) }} className='btn' type="text">30s</button>
 
                     </div>
                     <div>
-                        <button className='btn' type="text">40s</button>
+                        <button onClick={() => { changeBreak(40) }} className='btn' type="text">40s</button>
 
                     </div>
                     <div>
-                        <button className='btn' type="text">50s</button>
+                        <button onClick={() => { changeBreak(50) }} className='btn' type="text">50s</button>
 
                     </div>
 
@@ -65,11 +69,13 @@ const Result = (props) => {
                     </div>
                     <div className='ex-info'>
                         <h3>Break Time </h3>
-                        <p className='Br-time'>0s</p>
+                        <p>{count}</p>
                     </div>
                 </div>
 
             </div>
+
+            <button className='btn-complete' type="text">Activity Completed</button>
         </div>
     );
 };
