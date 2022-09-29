@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 import './Result.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Result = ({ time }) => {
     const [count, setcount] = useState(0)
     const changeBreak = (t) => {
         setcount(t)
     }
+    const notify = () => toast("Wow so easy!");
 
     return (
         <div className='result'>
@@ -75,7 +78,8 @@ const Result = ({ time }) => {
 
             </div>
 
-            <button className='btn-complete' type="text">Activity Completed</button>
+            <button onClick={notify} className='btn-complete' type="text">Activity Completed</button>
+            <ToastContainer />
         </div>
     );
 };

@@ -88,3 +88,7 @@
     font-weight: 600;
     margin-left: 25px;
 }
+
+.btn-complete:hover {
+    background-color: yellowgreen;
+}
