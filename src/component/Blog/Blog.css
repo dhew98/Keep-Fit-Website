@@ -1,0 +1,27 @@
+.blog-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin: 100px 50px;
+}
+
+.blogs {
+    margin-top: -20px;
+    width: 320px;
+    height: 500px;
+    border-radius: 8px;
+    position: relative;
+    background-color: white;
+}
+
+.blog-info {
+    margin: 0 15px;
+}
+
+.blogs img {
+    width: 287px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: -10px;
+}

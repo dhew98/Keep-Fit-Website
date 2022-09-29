@@ -2,13 +2,16 @@ import React, { useState } from 'react';
 import './Result.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
+
 
 const Result = ({ time }) => {
     const [count, setcount] = useState(0)
     const changeBreak = (t) => {
         setcount(t)
     }
-    const notify = () => toast("Wow so easy!");
+    const notify = () => toast("Congratulations!You have finished your daily milestone!");
 
     return (
         <div className='result'>
@@ -18,7 +21,7 @@ const Result = ({ time }) => {
                 </div>
                 <div>
                     <h3>Jawad Dhew</h3>
-                    <p>Bangladesh</p>
+                    <p><FontAwesomeIcon icon="fa fa-solid fa-location-dot" />Bangladesh</p>
                 </div>
             </div>
             <div className='body-details'>

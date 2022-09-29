@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import Activities from '../Activities/Activities';
 import Result from '../Result/Result';
 import './Main.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDumbbell } from '@fortawesome/free-solid-svg-icons'
 
 const Main = () => {
     const [activities, setActivities] = useState([]);
@@ -26,7 +28,7 @@ const Main = () => {
         <div className='main-container'>
             <div className='acitvity'>
                 <div className='header'>
-                    <h1 className='Name'>Keep Fit</h1>
+                    <h1 className='Name'> <FontAwesomeIcon icon="fa-regular fa-dumbbell" />  Keep Fit</h1>
                     <h2>Select Your Activities!</h2>
                 </div>
                 <div className="activities-container">
