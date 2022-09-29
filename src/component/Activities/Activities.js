@@ -5,21 +5,20 @@ import './Activities.css';
 const Activities = ({ activities }) => {
     console.log(activities)
 
-    const { name, img, description, time } = activities;
+    const { name, img, description, time, age } = activities;
     return (
-        <div className='activites'>
+        <div className='activities'>
             <div className='activities-info'>
                 <img src={img} alt=""></img>
                 <p className='activities-name'>
                     {name}
                 </p>
-                <p>Price</p>
-                <p><small>Seller: </small></p>
-                <p><small>Ratings: </small></p>
+                <p className='activities-details'>{description}</p>
+                <p>For Age : <b>{age}</b>  </p>
+                <p>Time Required : <b>{time} min</b> </p>
             </div>
             <button className='btn-cart'>
-                <p className='btn-text'>Add To List</p>
-
+                <p className='btn-text'>Add to List</p>
             </button>
         </div>
     );

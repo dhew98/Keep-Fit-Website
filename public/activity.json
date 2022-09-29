@@ -1,0 +1,50 @@
+[
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+        "name": "Cycling",
+        "img": "images/cycle.webp",
+        "description": "Cycling, use of a bicycle for sport, recreation, or transportation. The sport of cycling consists of professional and amateur races.",
+        "age": "20-25",
+        "time": "20"
+    },
+    {
+        "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
+        "name": "Fishing",
+        "description": "Fishing, also called angling, the sport of catching fish, freshwater or saltwater, typically with rod, line, and hook. Like hunting, fishing originated as a means of providing food for survival.",
+        "age": "30-35",
+        "time": "30",
+        "img": "images/fish.jpg"
+    },
+    {
+        "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
+        "name": "Push Up",
+        "description": "The push-up is a common calisthenics exercise beginning from the prone position. By raising and lowering the body using the arms.",
+        "age": "20-25",
+        "time": "10",
+        "img": "images/push.jpg"
+    },
+    {
+        "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
+        "name": "Running",
+        "description": "Running burns slightly more calories per hour than biking, so it may help you lose weight faster. Generally, running burns 566 to 839 calories an hour.",
+        "age": "20-35",
+        "time": "25",
+        "img": "images/run.jpg"
+    },
+    {
+        "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
+        "name": "Swimming",
+        "description": "Swimming is an individual or team racing sport that requires the use of one's entire body to move through water. The sport takes place in pools or open water.",
+        "age": "15-25",
+        "time": "15",
+        "img": "images/swim.jpg"
+    },
+    {
+        "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
+        "name": "Wight Lifting",
+        "description": "Weight training is a type of strength training that uses weights for resistance. Weight training provides a stress to the muscles that causes them to adapt and get stronger.",
+        "age": "20-25",
+        "time": "10",
+        "img": "images/weight.png"
+    }
+]
