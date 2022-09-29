@@ -65,11 +65,11 @@ const Result = ({ time }) => {
                 <div className='ex'>
                     <div className='ex-info'>
                         <h3>Excercise Time </h3>
-                        <p className='Ex-time'>{time}</p>
+                        <p className='Ex-time'>{time}min</p>
                     </div>
                     <div className='ex-info'>
                         <h3>Break Time </h3>
-                        <p>{count}</p>
+                        <p>{count}s</p>
                     </div>
                 </div>
 

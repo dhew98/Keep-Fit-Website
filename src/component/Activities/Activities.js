@@ -17,8 +17,8 @@ const Activities = ({ activities, addTime }) => {
                 <p>For Age : <b>{age}</b>  </p>
                 <p>Time Required : <b>{time} min</b> </p>
             </div>
-            <button className='btn-cart'>
-                <p onClick={() => addTime(time)} className='btn-text'>Add to List</p>
+            <button className='btn-cart' onClick={() => addTime(time)}>
+                <p className='btn-text'>Add to List</p>
             </button>
         </div>
     );
