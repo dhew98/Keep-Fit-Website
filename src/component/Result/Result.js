@@ -33,28 +33,39 @@ const Result = (props) => {
 
             <div className='break-details'>
                 <h3>Add a Break</h3>
-                <div>
+                <div className='break'>
                     <div>
-                        <button type="text">10</button>
+                        <button className='btn' type="text"> 10s </button>
                     </div>
                     <div>
-                        <button type="text">10</button>
+                        <button className='btn' type="text">20s</button>
                     </div>
                     <div>
-                        <button type="text">10</button>
+                        <button className='btn' type="text">30s</button>
 
                     </div>
                     <div>
-                        <button type="text">10</button>
+                        <button className='btn' type="text">40s</button>
 
                     </div>
                     <div>
-                        <button type="text">10</button>
+                        <button className='btn' type="text">50s</button>
 
                     </div>
-                    <div>
-                        <button type="text">10</button>
 
+                </div>
+
+            </div>
+            <div className='excercise-details'>
+                <h2>Excercise Details</h2>
+                <div className='ex'>
+                    <div className='ex-info'>
+                        <h3>Excercise Time </h3>
+                        <p className='Ex-time'>0s</p>
+                    </div>
+                    <div className='ex-info'>
+                        <h3>Break Time </h3>
+                        <p className='Br-time'>0s</p>
                     </div>
                 </div>
 

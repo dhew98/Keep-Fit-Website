@@ -29,14 +29,42 @@
     margin: 25px;
 }
 
-.btn-cart {
-    width: 100%;
-    background: skyblue;
+.break {
+    display: flex;
+    justify-content: space-around;
+    background-color: skyblue;
+    height: 50px;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.btn {
     border: none;
-    border-radius: 0px 0px 8px 8px;
-    position: absolute;
-    bottom: 0;
+    border-radius: 50%;
+    background-color: white;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.excercise-details {
+    margin: 25px;
+
+}
+
+.ex-info {
+    height: 50px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    background-color: gainsboro;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+
 }
