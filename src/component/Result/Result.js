@@ -21,7 +21,7 @@ const Result = ({ time }) => {
                 </div>
                 <div>
                     <h3>Jawad Dhew</h3>
-                    <p><FontAwesomeIcon icon="fa fa-solid fa-location-dot" />Bangladesh</p>
+                    <p><FontAwesomeIcon icon={faLocationDot} /> Bangladesh</p>
                 </div>
             </div>
             <div className='body-details'>
