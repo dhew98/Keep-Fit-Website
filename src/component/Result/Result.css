@@ -1,16 +1,42 @@
-.header {
+.header-res {
     display: flex;
     align-items: center;
-    margin-bottom: 0px;
+    line-height: 0;
+    margin-top: 20px;
 }
 
-.header p {
-    margin-top: 0px;
-}
-
-.header img {
+.header-res img {
     width: 100px;
     height: 70px;
-    background-attachment: fixed;
     border-radius: 50%;
+}
+
+.body-details {
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    margin: 25px;
+    line-height: 0;
+    border-radius: 20px;
+}
+
+.body-details div {
+    padding: 10px;
+}
+
+.break-details {
+    margin: 25px;
+}
+
+.btn-cart {
+    width: 100%;
+    background: skyblue;
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
