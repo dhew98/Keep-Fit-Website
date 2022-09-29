@@ -2,7 +2,7 @@ import React from 'react';
 import './Activities.css';
 
 
-const Activities = ({ activities }) => {
+const Activities = ({ activities, addTime }) => {
     console.log(activities)
 
     const { name, img, description, time, age } = activities;
@@ -18,7 +18,7 @@ const Activities = ({ activities }) => {
                 <p>Time Required : <b>{time} min</b> </p>
             </div>
             <button className='btn-cart'>
-                <p className='btn-text'>Add to List</p>
+                <p onClick={() => addTime(time)} className='btn-text'>Add to List</p>
             </button>
         </div>
     );

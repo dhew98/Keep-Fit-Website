@@ -12,10 +12,9 @@ const Main = () => {
             .then(data => setActivities(data))
     }, []);
 
-    addTime = () => {
+    const addTime = (t) => {
 
-
-        const time =
+        settime(time + parseInt(t))
 
     }
 
@@ -42,7 +41,7 @@ const Main = () => {
             </div>
 
             <div className="result-container">
-                <Result></Result>
+                <Result time={time}></Result>
             </div>
         </div>
 

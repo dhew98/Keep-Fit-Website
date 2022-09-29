@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Result.css';
 
-const Result = (props) => {
+const Result = ({ time }) => {
     const [count, setcount] = useState(0)
     const changeBreak = (t) => {
         setcount(t)
@@ -65,7 +65,7 @@ const Result = (props) => {
                 <div className='ex'>
                     <div className='ex-info'>
                         <h3>Excercise Time </h3>
-                        <p className='Ex-time'>0s</p>
+                        <p className='Ex-time'>{time}</p>
                     </div>
                     <div className='ex-info'>
                         <h3>Break Time </h3>
