@@ -5,12 +5,20 @@ import './Main.css';
 
 const Main = () => {
     const [activities, setActivities] = useState([]);
-
+    const [time, settime] = useState(0)
     useEffect(() => {
         fetch('activity.json')
             .then(res => res.json())
             .then(data => setActivities(data))
     }, []);
+
+    addTime = () => {
+
+
+        const time =
+
+    }
+
 
     return (
 
@@ -27,6 +35,7 @@ const Main = () => {
                         activities.map(a => <Activities
                             key={a.id}
                             activities={a}
+                            addTime={addTime}
                         ></Activities>)
                     }
                 </div>
